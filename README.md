@@ -9,5 +9,13 @@ you'd probably find out that you aren't able to directly edit the files the way 
 ## Using the 'nano' command, you can edit remote files inside virtual machines inside your terminal, here's how
 Here I'll be showing you how to work with the 'nano' command in terminal, as well as showing you some practical examples
 
+### Basic operations
+
+### More advanced operations
+
+
+## Tips and tricks
+
+
 ## Quirks and potential downsides of the 'nano' command
 
