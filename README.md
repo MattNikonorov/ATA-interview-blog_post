@@ -14,7 +14,9 @@ Here I'll be showing you how to work with the 'nano' command in terminal, as wel
 If you don't already have nano installed, you can install it with:
 
 Mac: `brew install nano`
+
 Linux/Debian/Ubuntu: `sudo apt install nano`
+
 CentOS/Fedora: `yum install nano`
 
 ***********
