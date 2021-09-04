@@ -24,7 +24,9 @@ CentOS/Fedora: `yum install nano`
 **To open a file with nano, you can simply run something like `nano filename.txt` and your terminal will open up and display the file's contents**
 ![The nano command](https://github.com/MattNikonorov/ATA-interview-blog_post/blob/main/nanodemo.png)
 
+
 To edit files with the nano command works pretty much the same as any other code editor, except the fact that you cannot select text and can only remove chunks of text or code by spamming the backspace key the way you would in the terminal.
+![Editing with nano](https://github.com/MattNikonorov/ATA-interview-blog_post/blob/main/nanoediting.gif)
 
 ### Basic operations
 
