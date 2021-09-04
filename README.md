@@ -21,6 +21,9 @@ CentOS/Fedora: `yum install nano`
 
 ***********
 
+**To open a file with nano, you can simply run something like `nano filename.txt` and your terminal will open up and display the file's contents**
+
+
 ### Basic operations
 
 ### More advanced operations
