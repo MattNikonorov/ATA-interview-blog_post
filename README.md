@@ -5,4 +5,9 @@ you'd probably find out that you aren't able to directly edit the files the way 
 
 **Unbenownst to quite a few people, there is in fact a way to directly edit files inside a virtual machine without using third party applications or addons!**
 
+
 ## Using the 'nano' command, you can edit remote files inside virtual machines inside your terminal, here's how
+Here I'll be showing you how to work with the 'nano' command in terminal, as well as showing you some practical examples
+
+## Quirks and potential downsides of the 'nano' command
+
