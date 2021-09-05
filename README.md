@@ -25,12 +25,13 @@ CentOS/Fedora: `yum install nano`
 ![The nano command](https://github.com/MattNikonorov/ATA-interview-blog_post/blob/main/nanodemo.png)
 
 
-To edit files with the nano command works pretty much the same as any other code editor, except the fact that you cannot select text and can only remove chunks of text or code by spamming the backspace key the way you would in the terminal.
+Editing files with the nano command works pretty much the same as any other code editor, except the fact that you cannot select text and can only remove chunks of text or code by spamming the backspace key the way you would in the terminal.
 ![Editing with nano](https://github.com/MattNikonorov/ATA-interview-blog_post/blob/main/nanoediting.gif)
 
 ### Basic operations
 **Saving and Discarding new edits**
-To save or discard any edits that you've made to a file with nano, first you will have to press "ctrl + x" on your keyboard
+To save or discard any edits that you've made to a file with nano, first you will have to press "ctrl + x" on your keyboard.
+
 
 
 ### More advanced operations
