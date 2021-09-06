@@ -47,7 +47,7 @@ Then when pasting the cut out piece of text or code, you can paste it back in by
 ![ctrl + u](https://github.com/MattNikonorov/ATA-interview-blog_post/blob/main/ctrlu.png)
 
 
-## Tips and tricks
+
 
 
 ## Quirks and potential downsides of the 'nano' command
