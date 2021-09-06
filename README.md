@@ -7,11 +7,8 @@ you'd probably find out that you aren't able to directly edit the files the way 
 
 Using the 'nano' command, you can easily edit and work with remote files inside virtual machines inside your terminal. 
 
-## The file operations with the nano command
-Here I'll be showing you how to work with the 'nano' command in terminal, as well as demonstrating and explaning the basic, as well as more advanced operations with the 'nano' command.
-
-### Installation and working with 'nano'
-If you don't already have nano installed, you can install it with:
+## Prerequisitries
+If you don't already have nano installed on your virtual machine, you can install it with:
 
 Mac: `brew install nano`
 
@@ -19,7 +16,10 @@ Linux/Debian/Ubuntu: `sudo apt install nano`
 
 CentOS/Fedora: `yum install nano`
 
-***********
+## Working with nano
+
+Here I'll be showing you how to work with the 'nano' command in terminal, as well as demonstrating and explaning the basic, as well as more advanced operations with the 'nano' command.
+
 
 **To open a file with nano, you can simply run something like `nano filename.txt` and your terminal will open up and display the file's contents**
 ![The nano command](https://github.com/MattNikonorov/ATA-interview-blog_post/blob/main/nanodemo.png)
@@ -35,6 +35,11 @@ To save or discard any edits that you've made to a file with nano, first you wil
 ![Yes or No](https://github.com/MattNikonorov/ATA-interview-blog_post/blob/main/nanodemo3.png)
 
 ### More advanced operations
+**Here are the more advanced operations you can perform with the nano command**
+
+#### Cut and Uncut
+By putting your cursor on the line which you want to cut, and then press "ctrl + k" on your keyboard, you will be able to cut that line out of your file.
+
 
 
 ## Tips and tricks
