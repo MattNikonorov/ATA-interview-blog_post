@@ -38,8 +38,13 @@ To save or discard any edits that you've made to a file with nano, first you wil
 **Here are the more advanced operations you can perform with the nano command**
 
 #### Cut and Uncut
-By putting your cursor on the line which you want to cut, and then press "ctrl + k" on your keyboard, you will be able to cut that line out of your file.
+By putting your cursor on the line which you want to cut, and then press "ctrl + k" on your keyboard, you will be able to cut that line out of your file:
+![ctrl + k](https://github.com/MattNikonorov/ATA-interview-blog_post/blob/main/ctrlk.png)
 
+![cut out piece of text](https://github.com/MattNikonorov/ATA-interview-blog_post/blob/main/cutout.png)
+
+Then when pasting the cut out piece of text or code, you can paste it back in by putting your cursor on the line that you want to paste the text/code into and press "ctrl + u":
+![ctrl + u](https://github.com/MattNikonorov/ATA-interview-blog_post/blob/main/ctrlu.png)
 
 
 ## Tips and tricks
