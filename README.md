@@ -115,3 +115,4 @@ To find a word or piece of text within your file with nano, you can press "ctrl 
 
 ## Quirks and potential downsides of the 'nano' command
 
+As you might have guessed, editing files inside terminal isn't  
