@@ -46,8 +46,14 @@ By putting your cursor on the line which you want to cut, and then press "ctrl +
 Then when pasting the cut out piece of text or code, you can paste it back in by putting your cursor on the line that you want to paste the text/code into and press "ctrl + u":
 ![ctrl + u](https://github.com/MattNikonorov/ATA-interview-blog_post/blob/main/ctrlu.png)
 
+#### Position
+To get the current position of your cursor within the file, you can press "ctrl + c" to find your cursor's position:
+![ctrl + c](https://github.com/MattNikonorov/ATA-interview-blog_post/blob/main/ctrlc.png)
 
 
+#### Search
+To find a word or piece of text within your file with nano, you can press "ctrl + w". If found, nano will redirect your cursor to the first character of the specified piece of text:
+![ctrl + W](https://github.com/MattNikonorov/ATA-interview-blog_post/blob/main/ctrlw.png)
 
 
 ## Quirks and potential downsides of the 'nano' command
