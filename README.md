@@ -115,4 +115,15 @@ To find a word or piece of text within your file with nano, you can press "ctrl 
 
 ## Quirks and potential downsides of the 'nano' command
 
-As you might have guessed, editing files inside terminal isn't  
+Even though the nano command is the easiest, fastest and most straight-forward way of editing remote files,
+
+as you might have guessed, editing files inside terminal isn't exactly a hassle-free experience, and comes with a few downsides which are:
+
+1. You can't cut multiple lines of text or code
+2. No syntaxing
+3. Getting your cursor to a specific position in the file takes slower than a normal code editor because you can't drag your cursor to that position, but have to get there manually.
+
+
+## Conclusion
+
+In summary, if you are working with remote files inside virtual machines, then the nano command is definetely the easiest, fastest and most straight-forward way of editing those files, creating a much faster way of working with remote code and virtual machines.
