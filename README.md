@@ -3,11 +3,12 @@
 Sometimes, when working with remote files inside an AWS EC2 instance or any other type of virtual machines running in the cloud, 
 you'd probably find out that you aren't able to directly edit the files the way you are able to edit files in your trusty code editor like VScode.
 
-**Unbenownst to quite a few people, there is in fact a way to directly edit files inside a virtual machine without using third party applications or addons!**
+**Unbeknownst to quite a few people, there is in fact a way to directly edit files inside a virtual machine without using third party applications or addons!**
 
 Using the 'nano' command, you can easily edit and work with remote files inside virtual machines inside your terminal. 
 
 ## Prerequisitries
+
 If you don't already have nano installed on your virtual machine, you can install it with:
 
 Mac: `brew install nano`
@@ -22,6 +23,7 @@ Here I'll be showing you how to work with the 'nano' command in terminal, as wel
 
 
 **Once you've SSHed into your virtual machine running on AWS or Azure, to open a remote file with nano, you can simply run something like `nano filename.extension` and your terminal will open up and display the file's contents**
+
 ![The nano command](https://github.com/MattNikonorov/ATA-interview-blog_post/blob/main/nanodemo.png)
 
 
@@ -29,15 +31,18 @@ Editing files with the nano command works pretty much the same as any other code
 ![Editing with nano](https://github.com/MattNikonorov/ATA-interview-blog_post/blob/main/nanoediting.gif)
 
 ### Basic operations
+
 **Saving and Discarding new edits**
 To save or discard any edits that you've made to a file with nano, first you will have to press "ctrl + x" on your keyboard and then select either 'No' to discard new edits or 'Yes' to save new edits and finally hit enter.
 ![Exit](https://github.com/MattNikonorov/ATA-interview-blog_post/blob/main/nanodemo2.png)
 ![Yes or No](https://github.com/MattNikonorov/ATA-interview-blog_post/blob/main/nanodemo3.png)
 
 ### More advanced operations
+
 **Here are the more advanced operations you can perform with the nano command**
 
 #### Cut and Uncut
+
 By putting your cursor on the line which you want to cut, and then press "ctrl + k" on your keyboard, you will be able to cut that line out of your file:
 ![ctrl + k](https://github.com/MattNikonorov/ATA-interview-blog_post/blob/main/ctrlk.png)
 
@@ -47,11 +52,13 @@ Then when pasting the cut out piece of text or code, you can paste it back in by
 ![ctrl + u](https://github.com/MattNikonorov/ATA-interview-blog_post/blob/main/ctrlu.png)
 
 #### Position
+
 To get the current position of your cursor within the file, you can press "ctrl + c" to find your cursor's position:
 ![ctrl + c](https://github.com/MattNikonorov/ATA-interview-blog_post/blob/main/ctrlc.png)
 
 
 #### Search
+
 To find a word or piece of text within your file with nano, you can press "ctrl + w". If found, nano will redirect your cursor to the first character of the specified piece of text:
 ![ctrl + W](https://github.com/MattNikonorov/ATA-interview-blog_post/blob/main/ctrlw.png)
 
@@ -71,4 +78,4 @@ as you might have guessed, editing files inside terminal isn't exactly a hassle-
 
 ## Conclusion
 
-In summary, if you are working with remote files inside virtual machines, then the nano command is definetely the easiest, fastest and most straight-forward way of editing those files, creating a much faster way of working with remote code and virtual machines.
+In summary, if you are working with remote files inside virtual machines, then the nano command is definetely the easiest, fastest and most straight-forward way of editing those files, creating a much faster way of working with remote files/code and virtual machines.
