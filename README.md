@@ -32,7 +32,8 @@ Editing files with the nano command works pretty much the same as any other code
 
 ### Basic operations
 
-**Saving and Discarding new edits**
+#### Saving and Discarding new edits
+
 To save or discard any edits that you've made to a file with nano, first you will have to press "ctrl + x" on your keyboard and then select either 'No' to discard new edits or 'Yes' to save new edits and finally hit enter.
 ![Exit](https://github.com/MattNikonorov/ATA-interview-blog_post/blob/main/nanodemo2.png)
 ![Yes or No](https://github.com/MattNikonorov/ATA-interview-blog_post/blob/main/nanodemo3.png)
