@@ -1,11 +1,11 @@
 # How to edit files in terminal with the 'nano' command
 
-Sometimes, when working with remote files inside an AWS EC2 instance or any other type of virtual machines running in the cloud, 
+Sometimes, when working with remote files inside an AWS EC2 instance or any other type of virtual machine running in the cloud, 
 you'd probably find out that you aren't able to directly edit the files the way you are able to edit files in your trusty code editor like VScode.
 
 **Unbeknownst to quite a few people, there is in fact a way to directly edit files inside a virtual machine without using third party applications or add-ons!**
 
-Using the 'nano' command, you can easily edit and work with remote files inside virtual machines inside your terminal. 
+Using the 'nano' command, you can easily edit and work with remote files on virtual machines inside your terminal. 
 
 ## Prerequisites
 
@@ -43,12 +43,12 @@ To save or discard any edits that you've made to a file with nano, first you wil
 
 #### Cut and Uncut
 
-By putting your cursor on the line which you want to cut, and then press "ctrl + k" on your keyboard, you will be able to cut that line out of your file:
+By putting your cursor on the line which you want to cut, and then pressing "ctrl + k" on your keyboard, you will be able to cut that line out of your file:
 ![ctrl + k](https://github.com/MattNikonorov/ATA-interview-blog_post/blob/main/ctrlk.png)
 
 ![cut out piece of text](https://github.com/MattNikonorov/ATA-interview-blog_post/blob/main/cutout.png)
 
-Then when pasting the cut out piece of text or code, you can paste it back in by putting your cursor on the line that you want to paste the text/code into and press "ctrl + u":
+You can paste it back in by putting your cursor on the line that you want to paste the text/code into and press "ctrl + u":
 ![ctrl + u](https://github.com/MattNikonorov/ATA-interview-blog_post/blob/main/ctrlu.png)
 
 #### Position
@@ -68,8 +68,7 @@ To find a word or piece of text within your file with nano, you can press "ctrl 
 ## Quirks and potential downsides of the 'nano' command
 
 Even though the nano command is the easiest, fastest and most straight-forward way of editing remote files,
-
-as you might have guessed, editing files inside terminal isn't exactly a hassle-free experience, and comes with a few downsides which are:
+as you might have guessed, editing files inside of terminal isn't exactly a hassle-free experience, and comes with a few downsides which are:
 
 1. You can't cut multiple lines of text or code
 2. No syntaxing
