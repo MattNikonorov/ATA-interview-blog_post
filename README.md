@@ -1,4 +1,4 @@
-# How to edit files in terminal with the 'nano' command
+# How to edit remote files in terminal with the 'nano' command
 
 Sometimes, when working with remote files inside an AWS EC2 instance or any other type of virtual machine running in the cloud, 
 you'd probably find out that you aren't able to directly edit the files the way you are able to edit files in your trusty code editor like VScode.
