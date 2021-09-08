@@ -1,13 +1,17 @@
 # How to edit files in terminal with the 'nano' command
 
 Sometimes, when working with remote files inside an AWS EC2 instance or any other type of virtual machines running in the cloud, 
+you'd probably find out that you aren't able to directly edit the files the way you are able to adit files in your trusty code editor like VScode.
+# How to edit files in terminal with the 'nano' command
+
+Sometimes, when working with remote files inside an AWS EC2 instance or any other type of virtual machines running in the cloud, 
 you'd probably find out that you aren't able to directly edit the files the way you are able to edit files in your trusty code editor like VScode.
 
-**Unbeknownst to quite a few people, there is in fact a way to directly edit files inside a virtual machine without using third party applications or addons!**
+**Unbeknownst to quite a few people, there is in fact a way to directly edit files inside a virtual machine without using third party applications or add-ons!**
 
 Using the 'nano' command, you can easily edit and work with remote files inside virtual machines inside your terminal. 
 
-## Prerequisitries
+## Prerequisites
 
 If you don't already have nano installed on your virtual machine, you can install it with:
 
@@ -19,7 +23,7 @@ CentOS/Fedora: `yum install nano`
 
 ## Working with nano
 
-Here I'll be showing you how to work with the 'nano' command in terminal, as well as demonstrating and explaning the basic, as well as more advanced operations with the 'nano' command.
+Here I'll be showing you how to work with the 'nano' command in terminal, as well as demonstrating and explaining the basic, as well as more advanced operations with the 'nano' command.
 
 
 **Once you've SSHed into your virtual machine running on AWS or Azure, to open a remote file with nano, you can simply run something like `nano filename.extension` and your terminal will open up and display the file's contents**
