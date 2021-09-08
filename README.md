@@ -21,7 +21,7 @@ CentOS/Fedora: `yum install nano`
 Here I'll be showing you how to work with the 'nano' command in terminal, as well as demonstrating and explaning the basic, as well as more advanced operations with the 'nano' command.
 
 
-**To open a file with nano, you can simply run something like `nano filename.txt` and your terminal will open up and display the file's contents**
+**Once you've SSHed into your virtual machine running on AWS or Azure, to open a file with nano, you can simply run something like `nano filename.txt` and your terminal will open up and display the file's contents**
 ![The nano command](https://github.com/MattNikonorov/ATA-interview-blog_post/blob/main/nanodemo.png)
 
 
